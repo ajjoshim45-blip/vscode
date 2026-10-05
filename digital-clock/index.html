@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Global Clock</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>World Clock</h1>
+      </header>
+
+      <section class="clock-grid">
+        <article class="clock-card">
+          <div class="city">New York</div>
+          <div class="abbr">EST/EDT</div>
+          <div class="time" id="time-ny">--:--:--</div>
+          <div class="date" id="date-ny">-- -- ----</div>
+        </article>
+
+        <article class="clock-card">
+          <div class="city">London</div>
+          <div class="abbr">GMT/BST</div>
+          <div class="time" id="time-london">--:--:--</div>
+          <div class="date" id="date-london">-- -- ----</div>
+        </article>
+
+        <article class="clock-card">
+          <div class="city">Paris</div>
+          <div class="abbr">CET/CEST</div>
+          <div class="time" id="time-paris">--:--:--</div>
+          <div class="date" id="date-paris">-- -- ----</div>
+        </article>
+
+        <article class="clock-card">
+          <div class="city">Dubai</div>
+          <div class="abbr">GST</div>
+          <div class="time" id="time-dubai">--:--:--</div>
+          <div class="date" id="date-dubai">-- -- ----</div>
+        </article>
+
+        <article class="clock-card">
+          <div class="city">Tokyo</div>
+          <div class="abbr">JST</div>
+          <div class="time" id="time-tokyo">--:--:--</div>
+          <div class="date" id="date-tokyo">-- -- ----</div>
+        </article>
+
+        <article class="clock-card">
+          <div class="city">Sydney</div>
+          <div class="abbr">AEST/AEDT</div>
+          <div class="time" id="time-sydney">--:--:--</div>
+          <div class="date" id="date-sydney">-- -- ----</div>
+        </article>
+
+        <article class="clock-card">
+          <div class="city">Los Angeles</div>
+          <div class="abbr">PST/PDT</div>
+          <div class="time" id="time-la">--:--:--</div>
+          <div class="date" id="date-la">-- -- ----</div>
+        </article>
+
+        <article class="clock-card">
+          <div class="city">Singapore</div>
+          <div class="abbr">SGT</div>
+          <div class="time" id="time-singapore">--:--:--</div>
+          <div class="date" id="date-singapore">-- -- ----</div>
+        </article>
+      </section>
+
+      <footer class="local-time">
+        <span>Local time:</span>
+        <strong id="local-time">--:--:--</strong>
+        <span id="local-zone">(Timezone)</span>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
